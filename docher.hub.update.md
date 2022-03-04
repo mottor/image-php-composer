@@ -1,10 +1,16 @@
 # How to update Docker Hub's version
 
+Build image:
+
     docker build -t mottor1/php-composer .
+
+Login to docker hub:
 
     docker login ## Enter login and pass
 
-change version and run this command:
+Change version in file VERSION.md
+
+And run this command:
 
     for i in $(cat VERSION.md) "latest"; do \
     echo "pushing ${i}"; \
