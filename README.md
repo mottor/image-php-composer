@@ -1,4 +1,4 @@
-# alpine-git
+# php-composer
 
 This takes PHP Docker image, and adds in Git, Composer, Zip, as well as common PHP modules.
 
